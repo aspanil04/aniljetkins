@@ -1,0 +1,6 @@
+@githubcicd_HostAddress = http://localhost:5150
+
+GET {{githubcicd_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

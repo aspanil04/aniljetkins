@@ -34,7 +34,7 @@ namespace githubcicd.Controller
         [HttpGet("getproductdetails")]
         public IActionResult GetProductDetails()
         {
-            return Ok("GetProductdetails method call successful");
+            return Ok("GetProductdetails method call complete");
         }
 
     }

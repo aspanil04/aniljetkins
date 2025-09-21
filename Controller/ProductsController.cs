@@ -25,5 +25,10 @@ namespace githubcicd.Controller
         {
             return Ok(_context.Employees.ToList());
         }
+        [HttpGet("getproduct/{id}")]
+        public IActionResult GetProductById(int id)
+        {
+            return Ok(_context.Employees.Find(id));
+        }
     }
 }
